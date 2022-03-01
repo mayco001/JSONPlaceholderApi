@@ -1,0 +1,44 @@
+
+h1{ 
+    margin-top: 3rem;
+    font-size:  3.75rem;
+    line-height: 1rem;
+}
+h2{
+    margin-top: 3rem;
+    font-size:  1.563rem;
+    line-height: 3rem;
+    text-align: center;
+    justify-content: center;
+}
+div.container{
+    background: blue;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+
+div{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.res{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    margin: 10px;
+}
+button {
+    width: 100px;
+    border-radius: 5%;
+}
+footer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

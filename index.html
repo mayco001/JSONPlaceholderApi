@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JSONPlaceholder</title>
+</head>
+<script src="scrip.js"></script>
+
+<body>
+    <div class="container">
+        <h1>{JSON} Placeholder</h1>
+        <h2> Free fake API for testing and prototyping.
+
+        Powered by JSON Server + LowDB. Tested with XV.
+        
+        As of Oct 2021, serving ~1.7 billion requests each month.
+        </h2>
+    </div>
+
+    
+
+    <h2>Resources</h2>
+
+    <div class="res">
+        <p>100 posts</p>
+        <button onclick="posts()">posts</button>
+    </div>
+    
+    <div class="res">            
+        <p>500 comments</p>       
+        <button onclick="comments()">comments</button>
+    </div>
+    
+    <div class="res">
+        <p>10 users</p>
+        <button onclick="users()">users</button>
+    </div>     
+    
+    <hr>
+   
+    <div id="app"></div>
+
+    <hr>
+    <footer>
+         <p>Site: <a href="https://jsonplaceholder.typicode.com/" target="_blank">JSONPlaceholderr</a></p>
+         
+        <p>Coded and maintained with ❤️ by typicode © 2021 </p>
+    </footer>
+</body>
+</html>
